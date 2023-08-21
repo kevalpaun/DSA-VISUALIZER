@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Grid, Card, Avatar, TextField, Button } from "@material-ui/core";
 import { IconButton } from '@material-ui/core';
-import { Phone, Email, LocationCity, ExpandLess } from "@material-ui/icons";
+import { Phone, Email, LocationCity, ExpandLess, ContactMail } from "@material-ui/icons";
 import { Link as Scroll } from 'react-scroll';
 
 // import Stack from "@material-ui/core/Stack"
@@ -84,27 +84,22 @@ export default function () {
             <div className={classes.contentSec}>
               <Card className={classes.InfoCard}>
                 <Avatar className={classes.colorBg}>
-                  <Email />
+                  <ContactMail />
                 </Avatar>
-                {<p className={classes.Infotext}>20CS041@charusat.edu.in</p>}
+                {<p className={classes.Infotext}>kevalpaun1203@gmail.com</p>}
               </Card>
               <Card className={classes.InfoCard}>
                 <Avatar className={classes.colorBg}>
-                  <Email />
+                  <Phone />
                 </Avatar>
-                <p className={classes.Infotext}>D21CS107@charusat.edu.in</p>
+                <p className={classes.Infotext}>+91-9316-616107</p>
               </Card>
-              <Card className={classes.InfoCard}>
-                <Avatar className={classes.colorBg}>
-                  <Email />
-                </Avatar>
-                <p className={classes.Infotext}>20CS064@charusat.edu.in</p>
-              </Card>
+              
               <Card className={classes.InfoCard}>
                 <Avatar className={classes.colorBg}>
                   <LocationCity />
                 </Avatar>
-                <p className={classes.Infotext}>Charusat University, Changa</p>
+                <p className={classes.Infotext}>Rajkot, Gujarat, India</p>
               </Card>
             </div>
           </Grid>
